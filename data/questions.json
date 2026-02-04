@@ -1,24 +1,41 @@
 [
     {
-      "id": "Q1",
-      "topic": "Continuous Integration",
-      "question": "What is the primary goal of Continuous Integration?",
-      "options": [
-        "Automatically deploy to production",
-        "Frequently integrate code changes into a shared repository",
-        "Eliminate the need for testing",
-        "Remove the need for branches"
-      ],
-      "answerIndex": 1,
-      "explanation": "Continuous Integration aims to detect integration issues early."
+        "id": "Q1",
+        "topic": "Continuous Integration",
+        "question": "What is the primary goal of Continuous Integration?",
+        "options": [
+            "Automatically deploy to production",
+            "Frequently integrate code changes into a shared repository",
+            "Eliminate the need for testing",
+            "Remove the need for branches"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Integration aims to detect integration issues early."
     },
     {
-      "id": "Q2",
-      "topic": "Containers",
-      "question": "Which tool is commonly used for containerization?",
-      "options": ["Ansible", "Docker", "Jenkins", "Terraform"],
-      "answerIndex": 1,
-      "explanation": "Docker is a popular containerization platform."
+        "id": "Q2",
+        "topic": "Containers",
+        "question": "Which tool is commonly used for containerization?",
+        "options": [
+            "Ansible",
+            "Docker",
+            "Jenkins",
+            "Terraform"
+        ],
+        "answerIndex": 1,
+        "explanation": "Docker is a popular containerization platform."
     }
-  ]
-  
+    {
+        "id": "Q3",
+        "topic": "Infrastructure as Code",
+        "question": "What is Infrastructure as Code (IaC)?",
+        "options": [
+            "Manually configuring servers",
+            "Managing infrastructure using machine-readable configuration files",
+            "Writing application source code",
+            "Monitoring system performance"
+        ],
+        "answerIndex": 1,
+        "explanation": "Infrastructure as Code allows infrastructure to be provisioned and managed using code instead of manual processes."
+    }
+]
