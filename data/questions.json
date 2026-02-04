@@ -24,7 +24,7 @@
         ],
         "answerIndex": 1,
         "explanation": "Docker is a popular containerization platform."
-    }
+    },
     {
         "id": "Q3",
         "topic": "Infrastructure as Code",
@@ -33,7 +33,7 @@
             "Manually configuring servers",
             "Managing infrastructure using machine-readable configuration files",
             "Writing application source code",
-            "Monitoring system performance"
+            "Monitoring technique for infrastructure health"
         ],
         "answerIndex": 1,
         "explanation": "Infrastructure as Code allows infrastructure to be provisioned and managed using code instead of manual processes."
