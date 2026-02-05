@@ -5,7 +5,7 @@ A small static web application that loads DevOps quiz questions from a JSON file
 ## Features
 - Topic selection (20 questions available)
 - One question at a time
-- Immediate feedback with explanation
+- Immediate feedback display with explanation
 - No backend or frameworks
 
 ## How to Run
