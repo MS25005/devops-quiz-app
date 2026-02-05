@@ -9,6 +9,7 @@ const questionEl = document.getElementById("question");
 const optionsEl = document.getElementById("options");
 const feedbackEl = document.getElementById("feedback");
 const nextBtn = document.getElementById("nextBtn");
+const explanationEl = document.getElementById("explanation");
 
 fetch("data/questions.json")
   .then(res => res.json())
@@ -49,8 +50,13 @@ function showQuestion() {
   answered = false;
   questionEl.textContent = q.question;
   optionsEl.innerHTML = "";
+
   feedbackEl.textContent = "";
   feedbackEl.className = "";
+
+  explanationEl.textContent = "";
+  explanationEl.className = "";
+
   nextBtn.classList.add("hidden");
 
   q.options.forEach((opt, index) => {
@@ -60,6 +66,7 @@ function showQuestion() {
     optionsEl.appendChild(li);
   });
 }
+
 
 function checkAnswer(selectedIndex, question, selectedEl) {
   if (answered) return;
@@ -75,16 +82,20 @@ function checkAnswer(selectedIndex, question, selectedEl) {
   });
 
   if (selectedIndex === question.answerIndex) {
-    feedbackEl.textContent = "Correct! " + question.explanation;
+    feedbackEl.textContent = "✅ Correct!";
     feedbackEl.className = "correct";
   } else {
     selectedEl.classList.add("incorrect");
-    feedbackEl.textContent = "Incorrect. " + question.explanation;
+    feedbackEl.textContent = "❌ Incorrect";
     feedbackEl.className = "incorrect";
   }
 
+  explanationEl.textContent = "Explanation: " + question.explanation;
+  explanationEl.className = "explanation";
+
   nextBtn.classList.remove("hidden");
 }
+
 
 nextBtn.addEventListener("click", () => {
   const topicQuestions = questions.filter(q => q.topic === currentTopic);
