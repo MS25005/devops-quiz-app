@@ -38,7 +38,6 @@
         "answerIndex": 1,
         "explanation": "Infrastructure as Code allows infrastructure to be provisioned and managed using code instead of manual processes."
     },
-    ,
     {
         "id": "Q4",
         "topic": "DevOps Culture",
