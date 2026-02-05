@@ -37,5 +37,226 @@
         ],
         "answerIndex": 1,
         "explanation": "Infrastructure as Code allows infrastructure to be provisioned and managed using code instead of manual processes."
+    },
+    {
+        "id": "Q4",
+        "topic": "DevOps Culture",
+        "question": "What is a core principle of DevOps culture?",
+        "options": [
+            "Strict separation between development and operations",
+            "Blame-focused incident management",
+            "Collaboration and shared responsibility",
+            "Manual approval for every change"
+        ],
+        "answerIndex": 2,
+        "explanation": "DevOps emphasizes collaboration and shared ownership across teams."
+    },
+    {
+        "id": "Q5",
+        "topic": "Version Control Systems",
+        "question": "What is the main purpose of a version control system?",
+        "options": [
+            "Deploy applications",
+            "Track and manage code changes",
+            "Monitor system performance",
+            "Provision infrastructure"
+        ],
+        "answerIndex": 1,
+        "explanation": "Version control systems help track changes and collaborate on code."
+    },
+    {
+        "id": "Q6",
+        "topic": "Version Control Systems",
+        "question": "Which version control system is distributed?",
+        "options": [
+            "SVN",
+            "CVS",
+            "Git",
+            "Perforce"
+        ],
+        "answerIndex": 2,
+        "explanation": "Git is a distributed version control system."
+    },
+    {
+        "id": "Q7",
+        "topic": "Plan with DevOps",
+        "question": "Which practice helps teams plan and track work in DevOps?",
+        "options": [
+            "Waterfall documentation",
+            "Agile boards and backlogs",
+            "Manual status meetings only",
+            "Code reviews"
+        ],
+        "answerIndex": 1,
+        "explanation": "Agile boards and backlogs help plan, prioritize, and track work."
+    },
+    {
+        "id": "Q8",
+        "topic": "Continuous Integration",
+        "question": "Which tool is commonly used for Continuous Integration?",
+        "options": [
+            "Jenkins",
+            "Docker",
+            "Kubernetes",
+            "Prometheus"
+        ],
+        "answerIndex": 0,
+        "explanation": "Jenkins is a widely used Continuous Integration tool."
+    },
+    {
+        "id": "Q9",
+        "topic": "Continuous Integration",
+        "question": "How often should code be merged in a CI practice?",
+        "options": [
+            "Once per release",
+            "Once a month",
+            "Frequently, often daily",
+            "Only after manual approval"
+        ],
+        "answerIndex": 2,
+        "explanation": "Frequent merges reduce integration issues and conflicts."
+    },
+    {
+        "id": "Q10",
+        "topic": "Continuous Delivery",
+        "question": "What does Continuous Delivery ensure?",
+        "options": [
+            "Code is always automatically deployed to production",
+            "Code is always in a deployable state",
+            "Testing is skipped",
+            "Infrastructure is manually configured"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Delivery ensures software can be deployed at any time."
+    },
+    {
+        "id": "Q11",
+        "topic": "Continuous Deployment",
+        "question": "How does Continuous Deployment differ from Continuous Delivery?",
+        "options": [
+            "It requires manual approval before deployment",
+            "It automatically deploys every successful change to production",
+            "It skips automated testing",
+            "It focuses only on infrastructure"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Deployment automatically deploys changes without manual intervention."
+    },
+    {
+        "id": "Q12",
+        "topic": "Infrastructure as Code",
+        "question": "Which tool is commonly used for Infrastructure as Code?",
+        "options": [
+            "Git",
+            "Terraform",
+            "Jenkins",
+            "Docker"
+        ],
+        "answerIndex": 1,
+        "explanation": "Terraform is a popular tool for defining infrastructure as code."
+    },
+    {
+        "id": "Q13",
+        "topic": "Infrastructure as Code",
+        "question": "What is a key benefit of Infrastructure as Code?",
+        "options": [
+            "Manual server setup",
+            "Increased configuration drift",
+            "Repeatable and consistent environments",
+            "Slower deployments"
+        ],
+        "answerIndex": 2,
+        "explanation": "IaC enables consistent and repeatable infrastructure provisioning."
+    },
+    {
+        "id": "Q14",
+        "topic": "DevOps Culture",
+        "question": "What does \"shift left\" mean in DevOps?",
+        "options": [
+            "Delaying testing until production",
+            "Moving responsibilities to operations only",
+            "Performing testing and security earlier in the pipeline",
+            "Reducing team collaboration"
+        ],
+        "answerIndex": 2,
+        "explanation": "Shift left encourages early testing and security checks."
+    },
+    {
+        "id": "Q15",
+        "topic": "Plan with DevOps",
+        "question": "Why is planning important in DevOps?",
+        "options": [
+            "To eliminate automation",
+            "To align teams with business goals",
+            "To slow down delivery",
+            "To avoid collaboration"
+        ],
+        "answerIndex": 1,
+        "explanation": "Planning helps align technical work with business objectives."
+    },
+    {
+        "id": "Q16",
+        "topic": "Continuous Delivery",
+        "question": "Which practice is essential for Continuous Delivery?",
+        "options": [
+            "Manual testing only",
+            "Automated testing",
+            "Infrequent releases",
+            "Hard-coded configurations"
+        ],
+        "answerIndex": 1,
+        "explanation": "Automated testing is essential to ensure reliable delivery."
+    },
+    {
+        "id": "Q17",
+        "topic": "Continuous Deployment",
+        "question": "What is a major risk of Continuous Deployment without proper controls?",
+        "options": [
+            "Faster feedback",
+            "Increased collaboration",
+            "Deploying faulty code to production",
+            "Improved reliability"
+        ],
+        "answerIndex": 2,
+        "explanation": "Without safeguards, bugs can be automatically deployed to production."
+    },
+    {
+        "id": "Q18",
+        "topic": "Version Control Systems",
+        "question": "What is a pull request mainly used for?",
+        "options": [
+            "Deploying applications",
+            "Provisioning servers",
+            "Code review and collaboration",
+            "Monitoring logs"
+        ],
+        "answerIndex": 2,
+        "explanation": "Pull requests enable code review and team collaboration."
+    },
+    {
+        "id": "Q19",
+        "topic": "DevOps Culture",
+        "question": "Which metric is commonly associated with DevOps success?",
+        "options": [
+            "Lines of code written",
+            "Deployment frequency",
+            "Number of meetings",
+            "Manual approvals"
+        ],
+        "answerIndex": 1,
+        "explanation": "High deployment frequency is a common DevOps performance metric."
+    },
+    {
+        "id": "Q20",
+        "topic": "Plan with DevOps",
+        "question": "Which tool is often used to manage DevOps work items?",
+        "options": [
+            "Jira",
+            "Docker",
+            "Terraform",
+            "Nginx"
+        ],
+        "answerIndex": 0,
+        "explanation": "Jira is commonly used for planning and tracking DevOps work."
     }
 ]
